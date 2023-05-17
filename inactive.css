@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+.container {
+  background: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  /* flex-wrap: wrap; */
+  /* flex-flow: row wrap; */
+}
+.card {
+  height: 420px;
+  width: 650px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 1px 10px 20px rgb(227, 227, 227);
+  display: flex;
+  flex-direction: row;
+}
+.right-box {
+  width: 50%;
+  height: 100%;
+  /* background-color:white; */
+  padding:40px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+.left-box {
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(to top, #322deb, #6743ff);
+  padding:40px 50px;
+
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.circle {
+  /* background-color: rgb(72, 39, 208); */
+  background: linear-gradient(to top, rgba(72, 39, 208, 0.1), rgb(24, 0, 208));
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+
+}
+.text{
+  text-align: center;
+}
+.button{
+  background: #303B59;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+h1{
+  font-size: 50px;
+}
+#gray{
+  color: #c8c2fe;
+  text-align: center;
+}
+
+.list1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width:260px;
+  background: rgb(253, 34, 10, 0.2);
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.incat2{
+  display: flex;
+  flex-grow: 1;
+  padding-left: 15px;
+  color: #FF5555;
+  /* background: white; */
+}
+.incat3{
+  display: flex;
+  justify-content: right;
+  flex-grow: 1;
+  /* background: white; */
+}
+.incatstyles{
+  font-size: small;
+  font-weight: 900;
+}
+#inspan{
+  color: rgb(0, 0, 0, 0.5);
+}
+
+
+.list2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width:260px;
+  background: rgb(255, 178, 30, 0.2);
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.incat2i{
+  display: flex;
+  flex-grow: 1;
+  padding-left: 15px;
+  color: #FFB21E;
+  /* background: white; */
+}
+.incat3{
+  display: flex;
+  justify-content: right;
+  flex-grow: 1;
+  /* background: white; */
+}
+.incatstyles{
+  font-size: small;
+  font-weight: 900;
+}
+#inspan{
+  color: rgb(0, 0, 0, 0.5);
+}
+
+.list3{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width:260px;
+  background: rgb(0, 187, 143, 0.2);
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.incat2ii{
+  display: flex;
+  flex-grow: 1;
+  padding-left: 15px;
+  color: #00BB8F;
+  /* background: white; */
+}
+.incat3{
+  display: flex;
+  justify-content: right;
+  flex-grow: 1;
+  /* background: white; */
+}
+.incatstyles{
+  font-size: small;
+  font-weight: 900;
+}
+#inspan{
+  color: rgb(0, 0, 0, 0.5);
+}
+
+.list4{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width:260px;
+  background: rgb(17, 37, 214, 0.2);
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.incat2iii{
+  display: flex;
+  flex-grow: 1;
+  padding-left: 15px;
+  color: #1125D6;
+  /* background: white; */
+}
+.incat3{
+  display: flex;
+  justify-content: right;
+  flex-grow: 1;
+  /* background: white; */
+}
+.incatstyles{
+  font-size: small;
+  font-weight: 900;
+}
+#inspan{
+  color: rgb(0, 0, 0, 0.5);
+}
+
+@media (max-width: 600px) {
+  .card {
+    flex-direction: column;
+    height: auto;
+    width: 80%;
+  }
+
+  .right-box,
+  .left-box {
+    width: 100%;
+    border-radius: 30px;
+    
+  }
+
+  .circle {
+    margin-bottom: 20px;
+  }
+
+  .list1, .list2, .list3, .list4{
+    width: auto;
+    max-width: 100%;
+    /* margin-left: auto;
+    margin-right: auto; */
+  }
+  .mobilepadding{
+    padding-bottom: 10px;
+  }
+}
