@@ -78,6 +78,12 @@
   padding-right: 10px;
   border-radius: 20px;
   text-decoration: none;
+  border: none;
+}
+.button:hover{
+   background: linear-gradient(to top, #303B59, #303B59);
+   transition: all 8s;
+
 }
 h1{
   font-size: 50px;
