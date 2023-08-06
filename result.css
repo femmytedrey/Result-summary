@@ -5,6 +5,7 @@
   margin: 0px;
   padding: 0px;
   font-family: 'Roboto', sans-serif;
+  
 }
 .container {
   background: #f6f6f6;
@@ -229,6 +230,8 @@ h1{
 #inspan{
   color: rgb(0, 0, 0, 0.5);
 }
+
+
 
 @media (max-width: 600px) {
   .card {
